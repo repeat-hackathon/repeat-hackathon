@@ -198,5 +198,8 @@ This project is released under the MIT License. See the LICENSE file for details
 Academic Use
 
 This repository was prepared for the University Data Science Challenge group assignment. Any submitted work should reflect the group's genuine collaborative development, execution history and understanding of the code.
+ Post-Hackathon Explainable AI
 
+Explainable AI was applied after model development to understand which features influenced predictions and how they affected model decisions. SHAP was used for XGBoost to provide global and local explanations, while permutation importance was applied to HistGradientBoosting for comparison.
 
+The final version keeps the original modelling workflow but includes improved figure presentation and Explainable AI (XAI). The visualisations were refined to make model performance easier to compare, including clearer performance plots and ROC curves. XAI was added using SHAP for XGBoost and permutation importance for HistGradientBoosting to identify important features and explain how they influence predictions.
